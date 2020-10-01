@@ -16,7 +16,7 @@ if __name__=='__main__':
     lst = []
 
     n = int(input("Enter numbers of elements:"))
-    print("Enter numbers manually")
+    print("Enter numbers in ascending order")
     for i in range(0,n):
         ele=int(input())
         lst.append(ele)
