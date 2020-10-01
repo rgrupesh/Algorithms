@@ -15,7 +15,7 @@ def merge(left, right):
             result.extend(left[value:] or right[value_2:])
             break
  
-    return print(result)
+    return result
 
 def mergesort(list):
     if len(list) < 2:
