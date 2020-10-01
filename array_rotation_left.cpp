@@ -1,3 +1,5 @@
+// Author @pranjal-aggarwal (Pranjal Aggarwal)
+
 #include <iostream>
 
 using namespace std;
@@ -33,9 +35,9 @@ int main()
 	cin >> n;
 	cout << "No. of rotations(d): ";
 	cin >> d;
-	
+
 	int arr[n], temp[d];
-	
+
 	for (int i=0; i<n; i++)
 	{
 		cin >> arr[i];
