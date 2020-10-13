@@ -32,3 +32,5 @@ function bubbleSort(arr) {
 }
 
 bubbleSort([37, 45, 29, 8]);
+
+// Big 0 => O(n^2)
